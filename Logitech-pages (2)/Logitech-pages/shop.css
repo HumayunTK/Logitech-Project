@@ -1,0 +1,366 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    height: 100vh;
+}
+#brand{
+    background: black;
+
+}
+.container {
+  max-width: 75rem;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+  
+.header {
+  background: #1c1c1cea;
+  color: white;
+}
+  
+.top-header {
+    display: flex;
+    gap: 20px;
+}
+  
+.logo {
+    width: 60px;
+}
+.logo2 {
+    width:60px;
+}  
+/* Hero section */  
+.navbar {
+    margin-top: 30px;
+  }
+ 
+.links {
+  list-style: none;
+  display: flex;
+  text-align: center;
+  gap: 30px;
+}
+ 
+.links a {
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+}
+ 
+.searchbar {
+    position: relative;
+}   
+#search {
+  width: 150px;
+  border: none;
+  outline: none;
+  padding: 10px 30px 10px 15px;
+  border-radius: 50px;
+  background-color: #4D5561;
+  color: white;
+  font-size: 16px;
+} 
+#search::placeholder {
+  color: white;
+} 
+.searchbar i {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  color: white;
+  font-size: 16px;
+  pointer-events: none;
+}
+  
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  gap: 20px;
+} 
+  h1 {
+  letter-spacing: 2px;
+  font-size: 50px;
+  font-weight: bolder;
+}  
+h4 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bolder;
+} 
+.text {
+  letter-spacing: 2px;
+  font-size: larger;
+  font-weight: normal;
+}  
+.span-text {
+  letter-spacing: 2px;
+  font-size: larger;
+  margin-bottom: 15px;
+}
+.hero-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+#advertisement {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+   
+}
+.image {
+    /* ADJUST THE IMAGE */
+    width: 100px;
+    margin-right: 420px;
+    margin-bottom:  0px;
+}
+.text {
+    
+    margin-right: 450px;
+    color: black;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 0.8;
+    font-weight: bold;
+   
+    
+}
+#text1{
+  font-size: 23px;
+  line-height: 0.8;
+}
+#text2{
+  margin-top: 70px;
+}
+#dollars{
+  font-size: 14px;
+}
+#button1{ 
+  border: 3.1px solid black;
+  margin-top: 15px;
+  padding: 15px;
+  
+  background-color:black;
+  font-weight: bold;
+  width: 50%;
+  transition: 0.4s;
+  color: aliceblue;
+} 
+#button1:hover {
+  background-color: transparent;
+  color: black;
+  cursor: pointer;
+  border: 3.1px solid black; 
+}
+#section3{ 
+  background: url(./images/1116882.webp);
+  background: cover;
+  background-repeat: no-repeat;
+  background-position: center; 
+  height:51vh; 
+}
+#wrapper {
+  
+  color:white;
+  margin-right: 790px;
+  text-align: right;
+  font-size: 2em;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 2.7;
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: flex; /* TURN SECTION3 INTO A FLEX CONTAINER */
+  flex-direction: column;
+  justify-content: center;
+}
+.button2{
+  background-color:greenyellow;
+  font-weight: bold;
+  width: 100px;
+  transition: 0.1s;
+  color: black;
+} 
+.button2:hover {
+  background-color: #3e8e41; /* THE BUTTON COLOR WHEN HOVER */
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.button2:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #beccc2;
+  transform: translateY(4px);
+}
+
+#section3 #wrapper #button2 {
+  display: flex;
+  flex-direction: column;
+  align-items: right; /* To center the buttons horizontally */
+}
+/*SECTION-3/PHOTO1*/
+/*THIS CSS PREVENTS THE IMAGES NOT TO OVERFLOW*/
+.photo{
+  position: relative;
+  width: 500px;
+  height: 690px;
+  border: 5px solid white;
+  overflow: hidden; /*HIDE THE EXCESS CONTENT*/
+  margin-top: 130px;
+  margin-left: 65px;
+  border-radius: 5.6%;
+}
+.photo img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}
+.photo:hover img {
+  transform: scale(1.2); /* Phóng to ảnh khi di chuột */
+}
+/*SECTION-3/PHOTO2*/
+.photo1 {
+  position: relative;
+  width: 250px;
+  height: 260px;
+  border: 5px solid white;
+  overflow: hidden; /* Ẩn phần nội dung thừa */
+  margin-top: -790px;
+  margin-left: 680px;
+  border-radius: 5.6%;
+}
+.photo1 img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}
+
+.photo1:hover img {
+  transform: scale(1.2); /* Phóng to ảnh khi di chuột */
+}
+/*SECTION-3/PHOTO2*/
+.photo2 {
+  position: relative;
+  width: 300px;
+  height: 370px;
+  border: 5px solid white;
+  overflow: hidden; /* Ẩn phần nội dung thừa */
+  margin-top: -614px;
+  margin-left: 1030px;
+  border-radius: 5.6%;
+}
+.photo2 img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}
+
+.photo2:hover img {
+  transform: scale(1.2); /* Phóng to ảnh khi di chuột */
+}
+#text-section1 {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 500px;
+  margin-left:65px; 
+  line-height: 0.544; 
+}
+.text1-1{
+  font-weight:600;
+  font-size: 2em;
+  
+}
+.text1-2{
+  line-height: 0.4;
+  font-weight: 550;
+  color: #4D5561;
+}
+#text-section2{
+  color:black;
+  font-family: Arial, Helvetica, sans-serif;
+  width:600px;
+  margin-left:680px;
+  margin-top: 00px;
+}
+.text2-1{
+  font-weight: 600;
+  font-size: 2em;
+  line-height: 0.17;
+}
+.text2-2{
+  line-height: 0.5;
+}
+#text-section3{
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  width:600px;
+  margin-left:1034px;
+  line-height: 0.8;
+}
+.text3-1{
+  font-weight: 600;
+  font-size: 2em;
+}
+.text3-2{
+  line-height: 0.6;
+}
+/*BLUE BAR*/
+.text1-3 a{
+  line-height: 1.9;
+  color:black;
+  text-decoration: none;
+  position: relative;
+  font-weight: 600;  
+}
+a {
+  text-decoration: none; /* Bỏ gạch chân dưới link */
+  position: relative; /* Để đặt phần tử con có vị trí tương đối */
+  align-items: center; /* Căn giữa các phần tử con theo trục dọc */
+  justify-content: center; /* Căn giữa các phần tử con theo trục ngang */
+}
+
+.bar {
+  display: inline-block;
+  width: 60px; /* Độ dài thanh */
+  height: 8px; /* Độ dày của thanh */
+  background-color: aqua; /* Màu sắc của thanh */
+  margin-left: 10px; /* Khoảng cách giữa chữ và thanh */
+  transition: width 0.2s ease-in-out; /* Hiệu ứng chuyển đổi khi di chuột */
+}
+
+a:hover .bar {
+  width: 20px; /* THE BAR WILL BE SHORTENED WHEN MOVE THE MOUSE ON */
+}
+a:hover{
+  text-decoration: underline;
+}
+.text2-3 a{
+  color: black;
+  font-weight: 600;
+  line-height: 2.4;
+}
+#footer{
+  margin-top:450px
+}

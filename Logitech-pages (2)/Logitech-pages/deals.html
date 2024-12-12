@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script defer src="js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Deals</title>
+</head>
+<style>
+    .card-btn {
+        border: 2px solid #52C7F2;
+        margin-top: 15px;
+        padding: 15px;
+        border-radius: 5px;
+        background-color: #52C7F2;
+        color: white;
+        font-weight: bold;
+        width: 50%;
+    }
+
+    .card-btn:hover {
+        background-color: transparent;
+        color: #52C7F2;
+        cursor: pointer;
+    }
+</style>
+
+<body>
+    <header class="container-fluid p-2">
+        <div class="container d-flex align-items-center justify-content-between">
+            <div class="d-flex gap-3">
+                <img src="./images/logo.png" alt="logo" style="width:50px" class="logo-img">
+                <div class="vertical-line"></div>
+                <div class="brands">
+                    <h>Our Brands</h>
+                    <i class="fa-solid fa-caret-down"></i>
+                </div>
+            </div>
+            <div>
+                <span class="fw-lighter">Free Shipping on orders over $29</span>
+            </div>
+            <div>
+                <h class="us">United States</h>
+            </div>
+        </div>
+    </header>
+    <nav class="navbar navbar-expand-lg" style="background:linear-gradient(to right, #022754, #22B6F2)">
+        <div class="container d-flex align-items-center justify-content-between">
+            <!-- Logo Section -->
+            <div class="logo d-flex align-items-center">
+                <button class="navbar-toggler mb-3" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars text-light me-3"></i>
+                </button>
+                <div class="navbar-brand">
+                    <a href="index.html"><img class="img1" src="./images/logo.png" alt=""></a>
+                    <a href="index.html"><img class="img2" src="./images/logo2.png" alt=""></a>
+                </div>
+            </div>
+
+            <!-- Navigation Links -->
+            <div class="links collapse navbar-collapse start" id="navbarNavDropdown">
+                <ul class="navbar-nav gap-4">
+                    <li class="nav-item">
+                        <a href="shop.html" class="nav-links">SHOPS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="deals.html" class="nav-links">DEALS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="discover.html" class="nav-links">DISCOVER</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="software.html" class="nav-links">SOFTWARE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="maintainance.html" class="nav-links">SUPPORT</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Search Form -->
+            <div class="user-cart-search">
+                <div class="searchbar">
+                    <input type="text" name="search" id="search" placeholder="Search...">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <div class="icons">
+                    <a href="login.html"><i class="fa-solid fa-user account text-light"></i></a>
+                    <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                    <i class="fa-solid fa-cart-shopping mt-1"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="mt-5">
+        <div class="d-flex flex-column align-items-center justify-content-center">
+            <div>
+                <h2 class="text-dark text-center mb-5">CURRENT DEALS*</h2>
+            </div>
+            <div class="container-fluid ms-lg-5">
+
+                    <div class="row" style="gap: 15vh;">
+                        <div class="col-md-3">
+                            <div class="text-dark">
+                                <div
+                                    style="background-color: rgba(128, 128, 128, 0.123); height:55vh; width:55vh; padding:5vh; ">
+                                    <img src="./images/deal1.webp" class="card-img-top mt-5" alt="...">
+                                </div>
+                                <h4 class="text-dark">G920/G29</h4>
+                                <p class="text-dark">Racing wheel for Xbox, Play Station and PC.</p>
+                                <h4 class="text-dark">$299.9</h4>
+                                <button class="card-btn">Buy Now</button>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="text-dark">
+                                <div
+                                    style="background-color: rgba(128, 128, 128, 0.123); height:55vh; width:55vh; padding: 5vh;">
+                                    <img src="./images/deal2.webp" class="card-img-top mt-5" alt="...">
+                                </div>
+                                <h4 class="text-dark">REFURBRISHED C40 TR</h4>
+                                <p class="text-dark">Racing wheel for Xbox, Play Station and PC.</p>
+                                <h4 class="text-dark">$118.9</h4>
+                                <button class="card-btn">Buy Now</button>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="text-dark">
+                                <div
+                                    style="background-color: rgba(128, 128, 128, 0.123); height:55vh; width:55vh; padding: 5vh;">
+                                    <img src="./images/deal3.webp" class="card-img-top mt-5" alt="...">
+                                </div>
+                                <h4 class="text-dark">REFURBRISHED PRO RACING WHEEL</h4>
+                                <p class="text-dark">Racing wheel for Xbox, Play Station and PC.</p>
+                                <h4 class="text-dark">$699.9</h4>
+                                <button class="card-btn">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mt-4" style="gap: 15vh;">
+                        <div class="col-md-3">
+                            <div class="text-dark">
+                                <div
+                                    style="background-color: rgba(128, 128, 128, 0.123); height:55vh; width:55vh; padding:5vh; ">
+                                    <img src="./images/deal4.webp" class="card-img-top mt-3" alt="...">
+                                </div>
+                                <h4 class="text-dark">LITRA BEAM LX</h4>
+                                <p class="text-dark">Racing wheel for Xbox, Play Station and PC.</p>
+                                <h4 class="text-dark">$149.9</h4>
+                                <button class="card-btn">Buy Now</button>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="text-dark">
+                                <div
+                                    style="background-color: rgba(128, 128, 128, 0.123); height:55vh; width:55vh; padding: 5vh;">
+                                    <img src="./images/deal5.webp" class="card-img-top mt-5" alt="...">
+                                </div>
+                                <h4 class="text-dark">ASTRO A40 TR</h4>
+                                <p class="text-dark">Racing wheel for Xbox, Play Station and PC.</p>
+                                <h4 class="text-dark">$129.9</h4>
+                                <button class="card-btn">Buy Now</button>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="text-dark">
+                                <div
+                                    style="background-color: rgba(128, 128, 128, 0.123); height:55vh; width:55vh; padding: 5vh;">
+                                    <img src="./images/deal6.webp" class="card-img-top mt-5" alt="...">
+                                </div>
+                                <h4 class="text-dark">REFURBRISHED PRO X TKL</h4>
+                                <p class="text-dark">Racing wheel for Xbox, Play Station and PC.</p>
+                                <h4 class="text-dark">$139.9</h4>
+                                <button class="card-btn">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mt-4" style="gap: 15vh;">
+                        <div class="col-md-3">
+                            <div class="text-dark">
+                                <div
+                                    style="background-color: rgba(128, 128, 128, 0.123); height:55vh; width:55vh; padding:5vh; ">
+                                    <img src="./images/deal7.webp" class="card-img-top mt-5" alt="...">
+                                </div>
+                                <h4 class="text-dark">REFURBRISHED G505 X PLUS GAMING MOUSE</h4>
+                                <p class="text-dark">Racing wheel for Xbox, Play Station and PC.</p>
+                                <h4 class="text-dark">$119.9</h4>
+                                <button class="card-btn">Buy Now</button>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="text-dark">
+                                <div
+                                    style="background-color: rgba(128, 128, 128, 0.123); height:55vh; width:55vh; padding: 5vh;">
+                                    <img src="./images/deal8.webp" class="card-img-top mt-5" alt="...">
+                                </div>
+                                <h4 class="text-dark">REFURBRISHED PRO X SUPERLIGHT TWO</h4>
+                                <p class="text-dark">Racing wheel for Xbox, Play Station and PC.</p>
+                                <h4 class="text-dark">$300.9</h4>
+                                <button class="card-btn">Buy Now</button>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="text-dark">
+                                <div
+                                    style="background-color: rgba(128, 128, 128, 0.123); height:55vh; width:55vh; padding: 5vh;">
+                                    <img src="./images/deal9.webp" class="card-img-top mt-5" alt="...">
+                                </div>
+                                <h4 class="text-dark">REFURBRISHED X</h4>
+                                <p class="text-dark">Racing wheel for Xbox, Play Station and PC.</p>
+                                <h4 class="text-dark">$97.9</h4>
+                                <button class="card-btn">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mt-4" style="gap: 15vh;">
+                        <div class="col-md-3">
+                            <div class="text-dark">
+                                <div
+                                    style="background-color: rgba(128, 128, 128, 0.123); height:55vh; width:55vh; padding:5vh; ">
+                                    <img src="./images/deal10.webp" class="card-img-top mt-5" alt="...">
+                                </div>
+                                <h4 class="text-dark">REFURBRISHED G505 X LIGHTSPEED WIRELESS GAMING MOUSE</h4>
+                                <p class="text-dark">Racing wheel for Xbox, Play Station and PC.</p>
+                                <h4 class="text-dark">$599.9</h4>
+                                <button class="card-btn">Buy Now</button>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="text-dark">
+                                <div
+                                    style="background-color: rgba(128, 128, 128, 0.123); height:55vh; width:55vh; padding: 5vh;">
+                                    <img src="./images/deal11.webp" class="card-img-top mt-5" alt="...">
+                                </div>
+                                <h4 class="text-dark">G CLOUD</h4>
+                                <p class="text-dark">Racing wheel for Xbox, Play Station and PC.</p>
+                                <h4 class="text-dark">$279.9</h4>
+                                <button class="card-btn">Buy Now</button>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="text-dark">
+                                <div
+                                    style="background-color: rgba(128, 128, 128, 0.123); height:55vh; width:55vh; padding: 5vh;">
+                                    <img src="./images/deal12.webp" class="card-img-top mt-5" alt="...">
+                                </div>
+                                <h4 class="text-dark">CARRYING CASE</h4>
+                                <p class="text-dark">Racing wheel for Xbox, Play Station and PC.</p>
+                                <h4 class="text-dark">$29.9</h4>
+                                <button class="card-btn">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mt-4" style="gap: 15vh;">
+                        <div class="col-md-3">
+                            <div class="text-dark">
+                                <div
+                                    style="background-color: rgba(128, 128, 128, 0.123); height:55vh; width:55vh; padding:5vh; ">
+                                    <img src="./images/deal13.webp" class="card-img-top mt-5" alt="...">
+                                </div>
+                                <h4 class="text-dark">LITRA GLOW</h4>
+                                <p class="text-dark">Racing wheel for Xbox, Play Station and PC.</p>
+                                <h4 class="text-dark">$49.9</h4>
+                                <button class="card-btn">Buy Now</button>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="text-dark">
+                                <div
+                                    style="background-color: rgba(128, 128, 128, 0.123); height:55vh; width:55vh; padding: 5vh;">
+                                    <img src="./images/deal14.webp" class="card-img-top mt-5" alt="...">
+                                </div>
+                                <h4 class="text-dark">REFURBRISHED G923</h4>
+                                <p class="text-dark">Racing wheel for Xbox, Play Station and PC.</p>
+                                <h4 class="text-dark">$209.9</h4>
+                                <button class="card-btn">Buy Now</button>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="text-dark">
+                                <div
+                                    style="background-color: rgba(128, 128, 128, 0.123); height:55vh; width:55vh; padding: 5vh;">
+                                    <img src="./images/deal15.webp" class="card-img-top mt-5" alt="...">
+                                </div>
+                                <h4 class="text-dark">LITRA BEAM</h4>
+                                <p class="text-dark">Racing wheel for Xbox, Play Station and PC.</p>
+                                <h4 class="text-dark">$99.9</h4>
+                                <button class="card-btn">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-light text-dark py-4 mt-5" style="background-color: rgba(128, 128, 128, 0.123)">
+        <div class="container">
+            <div class="row">
+                <!-- Footer Links -->
+                <div class="col-md-3">
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-dark text-decoration-none">ABOUT</a></li>
+                        <li class="mt-1"><a href="#" class="text-dark text-decoration-none">PRIVACY POLICY</a></li>
+                        <li class="mt-1"><a href="#" class="text-dark text-decoration-none">TERMS OF USE</a></li>
+                        <li class="mt-1"><a href="#" class="text-dark text-decoration-none">RETURN POLICY</a></li>
+                        <li class="mt-1"><a href="#" class="text-dark text-decoration-none">EMAIL PREFERENCES</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-dark text-decoration-none">CONTACT</a></li>
+                        <li class="mt-1"><a href="#" class="text-dark text-decoration-none">COOKIES SETTINGS</a></li>
+                        <li class="mt-1"><a href="#" class="text-dark text-decoration-none">SUSTAINABILITY</a></li>
+                        <li class="mt-1"><a href="#" class="text-dark text-decoration-none">REFURBISHED PRODUCTS</a>
+                        </li>
+                        <li class="mt-1"><a href="#" class="text-dark text-decoration-none">EMAIL SIGN UP PAGE</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-dark text-decoration-none">CAREERS</a></li>
+                        <li class="mt-1"><a href="#" class="text-dark text-decoration-none">SITEMAP</a></li>
+                        <li class="mt-1"><a href="#" class="text-dark text-decoration-none">RECYCLING</a></li>
+                        <li class="mt-1"><a href="#" class="text-dark text-decoration-none">STUDENT DISCOUNT</a></li>
+                        <li class="mt-1"><a href="#" class="text-dark text-decoration-none">PARTNER DEVELOPER LAB</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-dark text-decoration-none">PARTNER DEVELOPER LAB</a></li>
+                        <li class="mt-1"><a href="#" class="text-dark text-decoration-none">INVESTERS</a></li>
+                        <li class="mt-1"><a href="#" class="text-dark text-decoration-none">PRESS</a></li>
+                        <li class="mt-1"><a href="#" class="text-dark text-decoration-none">ACCESSIBILITY</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <!-- Email Subscription -->
+            <div class="container">
+                <div class="row d-flex align-items-center justify-content-between">
+                    <!-- Copyright -->
+                    <div class="col-auto text-dark">
+                        &copy; 2024 Logitech. All rights reserved.
+                    </div>
+                    <!-- Email Subscription Form -->
+                    <div class="col-md-5">
+                        <form class="d-flex">
+                            <input type="email" class="form-control me-2" placeholder="EMAIL ADDRESS*" required>
+                            <button type="submit" class="btn btn-dark">SUBSCRIBE</button>
+                        </form>
+                        <div class="form-check mt-2">
+                            <input type="checkbox" class="form-check-input" id="marketingConsent">
+                            <label class="form-check-label" for="marketingConsent">
+                                I want personalized marketing from Logitech G. You can unsubscribe anytime. See our
+                                <a href="#" class="text-dark text-decoration-underline">Privacy Policy</a>.
+                            </label>
+                        </div>
+                    </div>
+                    <!-- Social Icons -->
+                    <div class="col-auto text-dark">
+                        <a href="#" class="text-dark me-3"><i class="fa-brands fa-facebook fs-2"></i></a>
+                        <a href="#" class="text-dark me-3"><i class="fa-brands fa-twitter fs-2"></i></a>
+                        <a href="#" class="text-dark me-3"><i class="fa-brands fa-instagram fs-2"></i></a>
+                        <a href="#" class="text-dark me-3"><i class="fa-brands fa-youtube fs-2"></i></a>
+                        <a href="#" class="text-dark"><i class="fa-brands fa-discord fs-2"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+        </div>
+    </footer>
+</body>
+
+</html>

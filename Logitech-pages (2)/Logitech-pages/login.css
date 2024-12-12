@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f8f8;
+  }
+  
+  #wrapper {
+    width: 500px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  #logitech img {
+    width: 120px;
+    margin-bottom: 20px;
+  }
+  
+  .subtitle {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    margin-bottom: 20px;
+    border: 0;
+    outline: 0;
+  }
+  
+  .form-group {
+    text-align: left;
+    margin-bottom: 15px;
+    border: 0;
+    outline: 0;
+    
+  }
+  label {
+    font-size: 14px;
+    display: block;
+    margin-bottom: 5px;
+    
+  }
+  
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: hidden;
+    border-radius: 4px;
+  }
+  
+  .error-message {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: red;
+    margin-top: 5px;
+  }
+  
+  .password-wrapper {
+    position: relative;
+  }
+  
+  .show-password {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .forgot-password {
+    text-align: right;
+    margin-top: 10px;
+  }
+  
+  .forgot-password a {
+    font-size: 17px;
+    text-decoration: none;
+    color: #0073e6;
+    
+  }
+  
+  .captcha {
+    font-size: 12px;
+    color: #666;
+    margin: 15px 0;
+  }
+  
+  .captcha a {
+    color: #0073e6;
+    text-decoration: none;
+  }
+  
+  .login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: 0;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.23333s ease-in-out;
+  }
+  .login-button:hover{
+    background: white;
+    border: black;
+    color: black;
+    font-family:  Helvetica;
+  }
+  .or {
+    margin: 20px 0;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .social-login a img {
+    width: 36px;
+    margin: 0 3.5px;
+  }
+  
+  .footer {
+    font-size: 12px;
+    color: #666;
+    margin-top: 20px;
+  }
+  
+  .footer a {
+    text-decoration: none;
+    color: #0073e6;
+    margin: 0 5px;
+  }
+  
