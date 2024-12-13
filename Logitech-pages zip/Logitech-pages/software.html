@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script defer src="js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Software</title>
+</head>
+<style>
+    .card-btn {
+        border: 2px solid #52C7F2;
+        margin-top: 15px;
+        padding: 15px;
+        border-radius: 5px;
+        background-color: #52C7F2;
+        color: black;
+        font-weight: bold;
+        width: 40%;
+    }
+
+    .card-btn:hover {
+        background-color: transparent;
+        color: white;
+        cursor: pointer;
+    }
+
+
+    .btn1 {
+        background-color: rgba(128, 128, 128, 0.436);
+        border: none;
+        text-decoration: none;
+        padding: 15px;
+        color: black;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+    .btn1:hover {
+        background-color: rgba(128, 128, 128, 0.233);
+        color: black;
+    }
+
+    .btn2 {
+        background-color: #80F5D2;
+        border: none;
+        text-decoration: none;
+        padding: 15px;
+        color: black;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+    .btn2:hover {
+        background-color: #80f5d285;
+        color: black;
+    }
+</style>
+
+<body>
+    <header class="container-fluid p-2">
+        <div class="container d-flex align-items-center justify-content-between">
+            <div class="d-flex gap-3">
+                <img src="./images/logo.png" alt="logo" style="width:50px" class="logo-img">
+                <div class="vertical-line"></div>
+                <div class="brands">
+                    <h>Our Brands</h>
+                    <i class="fa-solid fa-caret-down"></i>
+                </div>
+            </div>
+            <div>
+                <span class="fw-lighter">Free Shipping on orders over $29</span>
+            </div>
+            <div>
+                <h class="us">United States</h>
+            </div>
+        </div>
+    </header>
+    <nav class="navbar navbar-expand-lg" style="background:linear-gradient(to right, #022754, #22B6F2)">
+        <div class="container d-flex align-items-center justify-content-between">
+            <!-- Logo Section -->
+            <div class="logo d-flex align-items-center">
+                <button class="navbar-toggler mb-3" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars text-light me-3"></i>
+                </button>
+                <div class="navbar-brand">
+                    <a href="index.html"><img class="img1" src="./images/logo.png" alt=""></a>
+                    <a href="index.html"><img class="img2" src="./images/logo2.png" alt=""></a>
+                </div>
+            </div>
+
+            <!-- Navigation Links -->
+            <div class="links collapse navbar-collapse start" id="navbarNavDropdown">
+                <ul class="navbar-nav gap-4">
+                    <li class="nav-item">
+                        <a href="shop.html" class="nav-links">SHOPS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="deals.html" class="nav-links">DEALS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="discover.html" class="nav-links">DISCOVER</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="software.html" class="nav-links">SOFTWARE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="maintainance.html" class="nav-links">SUPPORT</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Search Form -->
+            <div class="user-cart-search">
+                <div class="searchbar">
+                    <input type="text" name="search" id="search" placeholder="Search...">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <div class="icons">
+                    <a href="login.html"><i class="fa-solid fa-user account text-light "></i></a>
+                    <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                    <i class="fa-solid fa-cart-shopping mt-1"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- cards -->
+    <section class="mt-5">
+        <h3 class="text-dark fw-bolder text-center ">NEWS, TIPS AND TRICKS</h3>
+        <p class="text-dark text-center fs-4">Check out the latest updates and learn how to dial in <br> your gaming
+            setup </p>
+
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-3">
+                    <div class="text-light">
+                        <img src="./images/soft1.webp" class="card-img-top" alt="...">
+                        <p style="color: #22B6F2;" class="mt-3 fw-bold">TIPS & TRICKS</p>
+                        <div class="text-dark">
+                            <h2>G HUB BASICS</h4>
+                                <p>Some quick example text to build on the card title and make up the bulk of the card's
+                                    content.</p>
+                                <a href="#" class="text-dark fw-bold">READ MORE</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="text-light">
+                        <img src="./images/soft2.webp" class="card-img-top" alt="...">
+                        <p style="color: #22B6F2;" class="mt-3 fw-bold">TIPS & TRICKS</p>
+                        <div class="text-dark">
+                            <h2>KEYCONTROL</h5>
+                                <p>Some quick example text to build on the card title and make up the bulk of the card's
+                                    content.</p>
+                                <a href="#" class="text-dark fw-bold">READ MORE</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="text-light">
+                        <img src="./images/soft3.webp" class="card-img-top" alt="...">
+                        <p style="color: #22B6F2;" class="mt-3 fw-bold">TIPS & TRICKS</p>
+                        <div class="text-dark">
+                            <h2>HERO 2 SENSOR</h2>
+                            <p>Some quick example text to build on the card title and make up the bulk of the card's
+                                content.</p>
+                            <a href="#" class="text-dark fw-bold">READ MORE</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="text-light">
+                        <img src="./images/soft4.webp" class="card-img-top" alt="...">
+                        <p style="color: #22B6F2;" class="mt-3 fw-bold">TIPS & TRICKS</p>
+                        <div class="text-dark">
+                            <h2>LIGHTSYNC RGB</h2>
+                            <p>Some quick example text to build on the card title and make up the bulk of the card's
+                                content.</p>
+                            <a href="#" class="text-dark fw-bold">READ MORE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="mt-5 text-center">
+        <img src="./images/ss.png" alt="">
+    </div>
+
+    <!-- accordian -->
+    <div class="bg-dark mt-5">
+        <div class="accordion bg-dark d-flex flex-column align-items-center justify-content-around"
+            id="accordionExample" style="height: 100vh;">
+            <div>
+                <h1 class="text-center text-light mt-5">FAQ</h1>
+            </div>
+            <div class="container">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            What are the latest versions of windows and mac os..
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the first item's accordion body.</strong> It is shown by default, until the
+                            collapse plugin adds the appropriate classes that we use to style each element. These
+                            classes
+                            control the overall appearance, as well as the showing and hiding via CSS transitions. You
+                            can
+                            modify any of this with custom CSS or overriding our default variables. It's also worth
+                            noting
+                            that just about any HTML can go within the <code>.accordion-body</code>, though the
+                            transition
+                            does limit overflow.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            What is the G HUB community..
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the second item's accordion body.</strong> It is hidden by default, until
+                            the
+                            collapse plugin adds the appropriate classes that we use to style each element. These
+                            classes
+                            control the overall appearance, as well as the showing and hiding via CSS transitions. You
+                            can
+                            modify any of this with custom CSS or overriding our default variables. It's also worth
+                            noting
+                            that just about any HTML can go within the <code>.accordion-body</code>, though the
+                            transition
+                            does limit overflow.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            What device support KEYCONTROl..
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
+                            collapse plugin adds the appropriate classes that we use to style each element. These
+                            classes
+                            control the overall appearance, as well as the showing and hiding via CSS transitions. You
+                            can
+                            modify any of this with custom CSS or overriding our default variables. It's also worth
+                            noting
+                            that just about any HTML can go within the <code>.accordion-body</code>, though the
+                            transition
+                            does limit overflow.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mb-5">
+                <h5>Need Additional Help?</h5>
+                <p>Get more information about our apps and products or get access to customer service</p>
+                <a href=""><button class="card-btn">GO TO SUPPORT</button></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- streamlabs -->
+    <div class="container">
+        <div class="text-center mb-5">
+            <h4 class="text-light fw-bolder">Shop New And Best Sellers</h4>
+        </div>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card text-dark">
+                    <img src="./images/st1.png" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h4>Streams Lab Desktop</h4>
+                        <p class="fs-5 mt-4">Some quick example text to build on the card title and make up the bulk of the
+                            card's
+                            content.</p>
+                        <div class="d-flex align-items-center justify-content-center gap-3 mt-4">
+                            <a class="btn1">EXPLORE</a>
+                            <a class="btn2">DOWNLOAD</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-dark">
+                    <img src="./images/st2.png" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h4>Multi Stream</h4>
+                        <p class="fs-5 mt-4">Some quick example text to build on the card title and make up the bulk of the
+                            card's
+                            content.</p>
+                        <div class="d-flex align-items-center justify-content-center gap-3 mt-4">
+                            <a class="btn1 w-50">EXPLORE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-dark">
+                    <img src="./images/st3.png" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h4>OBS Plugin</h4>
+                        <p class="fs-5 mt-4">Some quick example text to build on the card title and make up the bulk of the
+                            card's
+                            content.</p>
+                        <div class="d-flex align-items-center justify-content-center gap-3 mt-4">
+                            <a class="btn1">EXPLORE</a>
+                            <a class="btn2">DOWNLOAD</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-light text-dark py-4 mt-5" style="background-color: rgba(128, 128, 128, 0.123)">
+        <div class="container">
+            <div class="row">
+                <!-- Footer Links -->
+                <div class="col-md-3">
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-dark text-decoration-none">ABOUT</a></li>
+                        <li class="mt-1"><a href="#" class="text-dark text-decoration-none">PRIVACY POLICY</a></li>
+                        <li class="mt-1"><a href="#" class="text-dark text-decoration-none">TERMS OF USE</a></li>
+                        <li class="mt-1"><a href="#" class="text-dark text-decoration-none">RETURN POLICY</a></li>
+                        <li class="mt-1"><a href="#" class="text-dark text-decoration-none">EMAIL PREFERENCES</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-dark text-decoration-none">CONTACT</a></li>
+                        <li class="mt-1"><a href="#" class="text-dark text-decoration-none">COOKIES SETTINGS</a></li>
+                        <li class="mt-1"><a href="#" class="text-dark text-decoration-none">SUSTAINABILITY</a></li>
+                        <li class="mt-1"><a href="#" class="text-dark text-decoration-none">REFURBISHED PRODUCTS</a>
+                        </li>
+                        <li class="mt-1"><a href="#" class="text-dark text-decoration-none">EMAIL SIGN UP PAGE</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-dark text-decoration-none">CAREERS</a></li>
+                        <li class="mt-1"><a href="#" class="text-dark text-decoration-none">SITEMAP</a></li>
+                        <li class="mt-1"><a href="#" class="text-dark text-decoration-none">RECYCLING</a></li>
+                        <li class="mt-1"><a href="#" class="text-dark text-decoration-none">STUDENT DISCOUNT</a></li>
+                        <li class="mt-1"><a href="#" class="text-dark text-decoration-none">PARTNER DEVELOPER LAB</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-dark text-decoration-none">PARTNER DEVELOPER LAB</a></li>
+                        <li class="mt-1"><a href="#" class="text-dark text-decoration-none">INVESTERS</a></li>
+                        <li class="mt-1"><a href="#" class="text-dark text-decoration-none">PRESS</a></li>
+                        <li class="mt-1"><a href="#" class="text-dark text-decoration-none">ACCESSIBILITY</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <!-- Email Subscription -->
+            <div class="container">
+                <div class="row d-flex align-items-center justify-content-between">
+                    <!-- Copyright -->
+                    <div class="col-auto text-dark">
+                        &copy; 2024 Logitech. All rights reserved.
+                    </div>
+                    <!-- Email Subscription Form -->
+                    <div class="col-md-5">
+                        <form class="d-flex">
+                            <input type="email" class="form-control me-2" placeholder="EMAIL ADDRESS*" required>
+                            <button type="submit" class="btn btn-dark">SUBSCRIBE</button>
+                        </form>
+                        <div class="form-check mt-2">
+                            <input type="checkbox" class="form-check-input" id="marketingConsent">
+                            <label class="form-check-label" for="marketingConsent">
+                                I want personalized marketing from Logitech G. You can unsubscribe anytime. See our
+                                <a href="#" class="text-dark text-decoration-underline">Privacy Policy</a>.
+                            </label>
+                        </div>
+                    </div>
+                    <!-- Social Icons -->
+                    <div class="col-auto text-dark">
+                        <a href="#" class="text-dark me-3"><i class="fa-brands fa-facebook fs-2"></i></a>
+                        <a href="#" class="text-dark me-3"><i class="fa-brands fa-twitter fs-2"></i></a>
+                        <a href="#" class="text-dark me-3"><i class="fa-brands fa-instagram fs-2"></i></a>
+                        <a href="#" class="text-dark me-3"><i class="fa-brands fa-youtube fs-2"></i></a>
+                        <a href="#" class="text-dark"><i class="fa-brands fa-discord fs-2"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+        </div>
+    </footer>
+</body>
+
+</html>

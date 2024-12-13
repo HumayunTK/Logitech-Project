@@ -1,0 +1,8 @@
+#wrapper{
+  color: aliceblue;
+}
+body{
+    background: url(./images/website-under-maintenance.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
