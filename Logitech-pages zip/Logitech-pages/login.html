@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Logitech Login</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+  <div id="wrapper">
+    <div id="logitech">
+      <img src="./images/dccd9087eb658a5474eb27d1b43901a4.svg" alt="Logitech Logo">
+    </div>
+    <p class="subtitle">Log in with your Login ID.</p>
+    <form>
+      <div class="form-group">
+        <label for="email"></label>
+        <input type="email" id="email" placeholder="Email address" required>
+        <span id="error-message" style="color: red; display: none;font-family: Arial, Helvetica, sans-serif;">Please enter a valid email address</span>
+      </div>
+      <div class="form-group">
+        <label for="password"></label>
+        <div class="password-wrapper">
+          <input type="password" id="password" placeholder="Password" required>
+          <button type="button" class="show-password"><img src=""></button>
+        </div>
+      </div>
+      <div class="forgot-password">
+        <a href="#">Forgot password?</a>
+      </div>
+      <p class="captcha">
+        This site is protected by hCaptcha and its 
+        <a href="#">Privacy Policy</a> and 
+        <a href="#">Terms of Service</a> apply.
+      </p>
+      <button type="submit" class="login-button">Login</button>
+    </form>
+    <div class="or">OR</div>
+    <div class="social-login">
+      <a href="#"><img src="./images/icons8-facebook-50.png" alt="Facebook"></a>
+      <a href="#"><img src="./images/download.png" alt="Google"></a>
+      <a href="#"><img src="./images/apple.png" alt="Apple"></a>
+      <a href="#"><img src="./images/amazon-circle.svg" alt="Amazon"></a>
+      <a href="#"><img src="./images/icons8-spotify.svg" alt="Spotify"></a>
+      <a href="#"><img src="./images/4590799_circle_logo_media_network_social_icon.png" alt="Twitch"></a>
+      <a href="#"><img src="./images/wechat.png" alt="WeChat"></a>
+    </div>
+    <div class="footer">
+      <a href="#">Create an account</a>
+      <span>|</span>
+      <a href="#">About Logi ID</a>
+    </div>
+  </div>
+<script src="./js/login.js"></script>
+<script type="module" src="./js/user.js"></script>
+<script type="module" src="./js/data.js"></script>
+</body>
+</html>
